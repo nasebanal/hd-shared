@@ -1,11 +1,22 @@
-# Shared Resources
+# Shared Software for Hacker Dojo Global Network
 
-This is a collection of shared modules and resources for Hacker Dojo applications. It should be included as a submodule to all Dojo app repositories. 
+Hacker Dojo is non-profit coworking space originated in Mountain View, California. Hacker Dojo distributes the source code for their operation software, and this is folked project in order to internationalize their assets with continuous integration environment.
+This project is a collection of shared modules and resources for Hacker Dojo applications. It should be included as a submodule to all Dojo app repositories.
 
-## Including in a new Dojo app repo
 
-It's recommended to point to the public canonical hd-shared repo as a directory called "shared" at the root of your Dojo app project directory. Here is the command to set it up:
+[Prerequisite]
 
-    git submodule add git://github.com/hackerdojo/hd-shared.git shared
+* Install Google App Engine SDK
+
+
+[How to Use]
+
+Step.1) Download the source code
+
+ $ git clone https://github.com/nasebanal/hd-shared.git
 
 Now you will have access to these shared resources in your Dojo project under the "shared" directory.
+This shared program should be included in other application software, so you don't need to deploy this to server independently.
+
+
+[![Build Status](https://travis-ci.org/nasebanal/hd-shared.svg)](https://travis-ci.org/nasebanal/hd-shared)
